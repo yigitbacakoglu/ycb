@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1286819-10d1-4bdd-9e7c-8553b2d7183e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/config/database.yml.postgresql" afterPath="$PROJECT_DIR$/config/database.yml.mysql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/custom_init.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/prototype_legacy_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -27,6 +28,7 @@
     <file path="/tag_sidebar.rb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387017322347" ignored="false" />
     <file path="/show.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387018327538" ignored="false" />
     <file path="/Gemfile.lock" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387019838454" ignored="false" />
+    <file path="/Gemfile" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387067659477" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +48,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="database.yml.mysql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml.mysql">
+      <file leaf-file-name="custom_init.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/initializers/custom_init.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="118" selection-end="244" vertical-scroll-proportion="0.20547946">
+            <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -67,7 +60,16 @@
       <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="16" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="353" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="54" selection-start="250" selection-end="250" vertical-scroll-proportion="0.28846154">
               <folding />
             </state>
           </provider>
@@ -88,9 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/themes/premium/views/search_sidebar/_content.html.erb" />
-        <option value="$PROJECT_DIR$/themes/premium/views/archives_sidebar/_content.html.erb" />
-        <option value="$PROJECT_DIR$/themes/premium/views/category_sidebar/_content.html.erb" />
         <option value="$PROJECT_DIR$/themes/premium/views/page_sidebar/_content.html.erb" />
         <option value="$PROJECT_DIR$/themes/premium/views/categories/show.html.erb" />
         <option value="$PROJECT_DIR$/themes/premium/views/categories/index.html.erb" />
@@ -103,6 +102,9 @@
         <option value="$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
+        <option value="$PROJECT_DIR$/lib/prototype_legacy_helper.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/custom_init.rb" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
       </list>
     </option>
@@ -186,6 +188,56 @@
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="publify">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="publify">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="config">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="publify">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="config">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="initializers">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="publify">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -505,14 +557,14 @@
     <frame x="10" y="22" width="1660" height="1010" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2527881" sideWeight="0.67031765" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2527881" sideWeight="0.6002191" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39978093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -588,73 +640,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/articles/read.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="2" selection-start="1265" selection-end="1265" vertical-scroll-proportion="-15.333333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/categories/_article.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="21" selection-start="0" selection-end="760" vertical-scroll-proportion="-8.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/tags/_article.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="760" selection-end="760" vertical-scroll-proportion="-10.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/categories/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="0" selection-end="339" vertical-scroll-proportion="-6.25">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/tags_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/grouping_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="939" selection-end="939" vertical-scroll-proportion="0.3903846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="2" selection-start="3973" selection-end="3973" vertical-scroll-proportion="0.3326923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/tag_sidebar/_content.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="39" selection-start="376" selection-end="376" vertical-scroll-proportion="0.24844721">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/tags/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="338" selection-end="338" vertical-scroll-proportion="-5.625">
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="21" selection-start="1835" selection-end="1835" vertical-scroll-proportion="0.36290324">
@@ -681,23 +666,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/Gemfile.heroku">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7705479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/prototype_legacy_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/publify_time.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/route_cache.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/stateful.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/spam_protection.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/publify_plugins.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/publify_sidebar.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="16" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml.mysql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="223" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/custom_init.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="353" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="118" selection-end="244" vertical-scroll-proportion="0.20547946">
+        <state line="10" column="54" selection-start="250" selection-end="250" vertical-scroll-proportion="0.28846154">
           <folding />
         </state>
       </provider>
