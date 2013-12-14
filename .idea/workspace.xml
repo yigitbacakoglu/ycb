@@ -23,6 +23,7 @@
     <file path="/_content.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387017945165" ignored="false" />
     <file path="/tag_sidebar.rb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387017322347" ignored="false" />
     <file path="/show.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387018327538" ignored="false" />
+    <file path="/Gemfile.lock" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387019838454" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +43,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.66346157">
+            <state line="20" column="17" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile.lock" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="34" selection-start="390" selection-end="390" vertical-scroll-proportion="0.43269232">
               <folding />
             </state>
           </provider>
@@ -66,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/themes/premium/views/livesearch_sidebar/_content.html.erb" />
         <option value="$PROJECT_DIR$/lib/tag_sidebar/lib/tag_sidebar.rb" />
         <option value="$PROJECT_DIR$/themes/premium/views/search_sidebar/_content.html.erb" />
         <option value="$PROJECT_DIR$/themes/premium/views/archives_sidebar/_content.html.erb" />
@@ -82,6 +91,7 @@
         <option value="$PROJECT_DIR$/themes/premium/views/tag_sidebar/_content.html.erb" />
         <option value="$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Gemfile.lock" />
       </list>
     </option>
   </component>
@@ -540,13 +550,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/search_sidebar/_content.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="21" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/premium/views/articles/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="328" vertical-scroll-proportion="-0.0">
@@ -649,7 +652,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="395" selection-end="395" vertical-scroll-proportion="0.66346157">
+        <state line="20" column="17" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="34" selection-start="390" selection-end="390" vertical-scroll-proportion="0.43269232">
           <folding />
         </state>
       </provider>
