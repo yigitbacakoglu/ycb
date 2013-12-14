@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1286819-10d1-4bdd-9e7c-8553b2d7183e" name="Default" comment="" />
+    <list default="true" id="b1286819-10d1-4bdd-9e7c-8553b2d7183e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.heroku" afterPath="$PROJECT_DIR$/Gemfile.heroku" />
+    </list>
     <ignored path="publify.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1386969473973" ignored="false" />
