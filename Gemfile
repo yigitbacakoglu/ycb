@@ -2,10 +2,10 @@ require 'yaml'
 env = ENV["RAILS_ENV"] || 'development'
 dbfile = File.expand_path("../config/database.yml", __FILE__)
 
-unless File.exists?(dbfile)
-    FileUtils.cp "config/database.yml.#{ENV['DB'] || 'postgres'}", 'config/database.yml'
-end
-
+#unless File.exists?(dbfile)
+#    FileUtils.cp "config/database.yml.#{ENV['DB'] || 'postgres'}", 'config/database.yml'
+#end
+#
 conf = YAML.load(File.read(dbfile))
 environment = conf[env]
 adapter = environment['adapter'] if environment
