@@ -9,7 +9,9 @@
     <%= @article.html(:body) %>
     <%= @article.html(:extended) %>
   </div>
+  <%#= render_related_posts %>
 
+  <%#= render_social_bookmarks("link", "title") %>
 
 
   <% if @article.allow_comments? or @article.published_comments.size > 0 -%>

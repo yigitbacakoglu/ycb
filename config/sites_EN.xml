@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- 
+	Social Bookmarks
+	
+	English Language Pack
+	version 4.2
+	Copyright(c) Apostolos Dountsis
+	http://www.dountsis.com
+-->
+<social_sites xsi:noNamespaceSchemaLocation="social_bookmarks.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+  <site>
+    <name>Facebook</name>
+    <url>http://www.facebook.com/sharer.php?u={link}</url>
+    <img>facebook.png</img>
+    <key>facebook_en</key>
+  </site>
+
+  <site>
+    <name>Google Bookmarks</name>
+    <url>http://www.google.com/bookmarks/mark?op=edit&amp;output=popup&amp;bkmk={link}&amp;title={title}</url>
+    <img>google.png</img>
+    <key>google_en</key>
+  </site>
+
+  <site>
+    <name>Yahoo My Web</name>
+    <url>http://myweb2.search.yahoo.com/myresults/bookmarklet?u={link}&amp;t={title}</url>
+    <img>yahoo.png</img>
+    <key>yahoo_en</key>
+  </site>
+</social_sites>
