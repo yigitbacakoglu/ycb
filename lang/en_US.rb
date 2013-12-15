@@ -14,6 +14,7 @@ Localization.define('en_US') do |l|
   l.store "pl_PL", "Polish"
   l.store "ro_RO", "Romanian"
   l.store "ru_RU", "Russian"
+  l.store "tr_TR", "Türkçe"
   l.store "zh_TW", "Chinese"
   l.store "zh_CN", "Simple Chinese"
   l.store "pt_BR", "Portuguese (Brazilian)"
