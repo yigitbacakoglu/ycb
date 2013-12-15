@@ -2,9 +2,171 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1286819-10d1-4bdd-9e7c-8553b2d7183e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/portfolio/8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/sponsor/amazon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/arrow_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/arrow_left2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/arrow_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/arrow_right2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/arrowleft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/arrowright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/back.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/blog1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/blog2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/boxed_bgtile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/light_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/light_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/bullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/bullet_boxed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/bullets2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/c1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/c2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/c3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/coloredbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/contentPatternRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/contentPatternTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/default/default_thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/designbor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/sponsor/facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/fontawesome-webfont-.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/fontawesome-webfont-v=4.0.1.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/fontawesome-webfont-v=4.0.1.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/fontawesome-webfont-v=4.0.1.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/sponsor/google.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/greyzz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/large_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/large_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/default/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/light_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/mb1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/slider/mb2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/navigdots.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/navigdots_bgtile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/p1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/p2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/p3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/pro1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/pro2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/pro3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/pro4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/ser1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/ser2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/ser3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/shadow1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/shadow2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/shadow3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/sponsor/skype.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/small_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/small_left_boxed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/small_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/small_right_boxed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/dark_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/default/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/facebook/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/light_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/light_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/default/sprite_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/default/sprite_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/default/sprite_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/prettyPhoto/default/sprite_y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/stressed_linen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/rs-assets/timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/sponsor/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/user-xs.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/user1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/w-border.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/images/sponsor/youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/_article.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/categories/_article.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/tags/_article.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/comments/_comment.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/_comment_counter.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/_comment_counter" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/_comment_form.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/_comment_list.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/archives_sidebar/_content.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/category_sidebar/_content.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/page_sidebar/_content.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/search_sidebar/_content.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/tag_sidebar/_content.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/_meta.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/_trackback.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/about.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/fontawesome-webfont-v=4.0.1.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/ie-style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/categories/index.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/isotope.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/jquery.carouFredSel-6.2.1-packed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/jquery.countdown.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/jquery.countdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/jquery.prettyPhoto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/jquery.themepunch.plugins.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/jquery.themepunch.revolution.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/prettyPhoto.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/read.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/rs-settings-ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/rs-settings.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/search.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/categories/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/tags/show.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/stylesheets/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/views/articles/view_page.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/premium/javascript/waypoints.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/publify.iml" afterPath="$PROJECT_DIR$/.idea/publify.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="publify.iws" />
@@ -60,15 +222,55 @@
         <entry file="file://$PROJECT_DIR$/config/database.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="353" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1387067769000" expanded="true" signature="157:225" placeholder="development:" />
+                <marker date="1387067769000" expanded="true" signature="226:289" placeholder="test:" />
+                <marker date="1387067769000" expanded="true" signature="290:352" placeholder="production:" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="13" selection-start="944" selection-end="944" vertical-scroll-proportion="-9.192307">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
+      <file leaf-file-name="themes_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/admin/themes_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="13" selection-start="944" selection-end="944" vertical-scroll-proportion="0.48380566">
+            <state line="20" column="12" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="15" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blog.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="16" selection-start="1984" selection-end="1989" vertical-scroll-proportion="-21.153847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="20" selection-start="319" selection-end="319" vertical-scroll-proportion="0.51307845">
               <folding />
             </state>
           </provider>
@@ -126,12 +328,12 @@
         <option value="$PROJECT_DIR$/themes/premium/views/tags/show.html.erb" />
         <option value="$PROJECT_DIR$/themes/premium/views/tag_sidebar/_content.html.erb" />
         <option value="$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
         <option value="$PROJECT_DIR$/lib/prototype_legacy_helper.rb" />
         <option value="$PROJECT_DIR$/config/initializers/custom_init.rb" />
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -231,7 +433,7 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="config">
+            <PATH_ELEMENT USER_OBJECT="themes">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -549,7 +751,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1660" height="1010" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -557,7 +759,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32968238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2527881" sideWeight="0.6002191" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2527881" sideWeight="0.6002191" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39978093" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -634,34 +836,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="60" selection-start="673" selection-end="673" vertical-scroll-proportion="0.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile.heroku">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7705479">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/prototype_legacy_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/publify_time.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/route_cache.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -714,7 +888,11 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <marker date="1387067769000" expanded="true" signature="157:225" placeholder="development:" />
+            <marker date="1387067769000" expanded="true" signature="226:289" placeholder="test:" />
+            <marker date="1387067769000" expanded="true" signature="290:352" placeholder="production:" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -741,7 +919,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="13" selection-start="944" selection-end="944" vertical-scroll-proportion="0.48380566">
+        <state line="38" column="13" selection-start="944" selection-end="944" vertical-scroll-proportion="-9.192307">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin/themes_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="12" selection-start="563" selection-end="563" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="15" selection-start="2052" selection-end="2052" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/blog.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="16" selection-start="1984" selection-end="1989" vertical-scroll-proportion="-21.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="319" selection-end="319" vertical-scroll-proportion="0.51307845">
           <folding />
         </state>
       </provider>
