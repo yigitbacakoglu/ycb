@@ -1,0 +1,15 @@
+<!-- First -->
+<div class="side-widget">
+  <h4 class="br-black"><%= sidebar.title %></h4>
+
+  <div class="widget-content">
+    <!-- search button and input box -->
+    <%= form_tag({:controller => 'articles',  :action => 'search'}, {:class => "form-inline bform", :method => 'get', :id => 'sform'}) do %>
+        <div class="form-group">
+          <input type="text" id="q" class="form-control" name="q" value="" size="15" placeholder="Type to search"/>
+        </div>
+        <input class="btn btn-info" type='submit' value='<%= _("Search") %>' />
+    <% end %>
+  </div>
+</div>
+

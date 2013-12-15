@@ -1,0 +1,17 @@
+<% unless sidebar.archives.blank? %>
+
+    <div class="side-widget">
+      <h4 class="br-black"><%= sidebar.title %></h4>
+      <div class="widget-content">
+        <ol>
+          <% sidebar.archives.each do |month| %>
+              <% counter = sidebar.show_count ? "<em>(#{month[:article_count]})</em>" : "" %>
+              <li>
+                <%= link_to"#{month[:name]} #{counter}".html_safe,  articles_by_month_path(month[:year], "%02i" % month[:month]) %>
+              </li>
+          <% end %>
+        </ol>
+      </div>
+    </div>
+<% end %>
+

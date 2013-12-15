@@ -1,0 +1,7 @@
+<ul class="comment-list">
+  <% if @article.published_comments.any? -%>
+      <%= render @article.published_comments %>
+  <% else -%>
+      <li class="dummy_comment comment" style="display:none"><%= _("No comments") %></li>
+  <% end -%>
+</ul>

@@ -1,0 +1,36 @@
+<div class="blog-post">
+  <div class="article entry" id="article-<%= @article.id %>">
+    <!-- Heading of the  post -->
+    <h3 class='page-header'><%=link_to(@article.title, (request.referer.present? ? request.referer : root_path )) %></h3>
+    <!-- Meta for this block -->
+    <div class="meta">
+      <%= render 'articles/meta', article: @article %>
+    </div>
+    <%= @article.html(:body) %>
+    <%= @article.html(:extended) %>
+  </div>
+
+
+
+  <% if @article.allow_comments? or @article.published_comments.size > 0 -%>
+      <div class="comments">
+        <div class="title"><h5><%= link_to pluralize(@article.published_comments.size,
+                                                     _('%d comments', @article.published_comments.size),
+                                                     _('%d comment', @article.published_comments.size),
+                                                     _('%d comments', @article.published_comments.size)), @article.permalink_url %>
+        </h5></div>
+        <%= render "articles/comment_list" %>
+      </div>
+  <% end -%>
+
+  <div class="respond well">
+    <% if @article.allow_comments? %>
+        <%= render 'articles/comment_form' %>
+    <% else %>
+        <%= _("Comments are disabled") %>
+    <% end %>
+  </div>
+
+
+
+</div>

@@ -1,0 +1,10 @@
+
+<div class="blog-post">
+  <h1 style="margin-top: 0px;" class='page-header'><%= link_to @grouping.name, @grouping.permalink_url %></h1>
+  <%= render :partial => 'article', :collection => @articles %>
+</div>
+
+
+<div class='paging paginate'>
+  <%= paginate @articles, { :previous_label => _('Previous'), :next_label => _('Next')  } %>
+</div>

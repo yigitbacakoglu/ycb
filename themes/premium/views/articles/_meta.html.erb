@@ -1,0 +1,4 @@
+<i class="fa fa-calendar"></i>&nbsp; <%= display_date_and_time(article.published_at) %> &nbsp;&nbsp;&nbsp;
+<i class="fa fa-user"></i>&nbsp; <%= _("by") %> <%= article.user.nickname %> &nbsp;&nbsp;&nbsp;
+<i class="fa fa-folder-open"></i>
+<%= category_links(article, _("under")) unless article.categories.empty? %>

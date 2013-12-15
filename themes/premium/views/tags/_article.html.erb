@@ -1,0 +1,16 @@
+<article id="article-<%= article.id %>" class='h-entry hentry h-as-note'>
+  <!-- Entry is the one post for each user -->
+  <div class="entry">
+    <!-- Heading of the  post -->
+    <h3 class='page-header p-name entry-title'><%= (controller.controller_name == 'redirect') ? article.title : link_to_permalink(article, article.title) %></h3>
+    <!-- Meta for this block -->
+    <div class="meta">
+      <%= render 'articles/meta', article: article %>
+      <%= render 'articles/comment_counter', article: article %>
+    </div>
+    <!-- Post Images -->
+    <%= render 'articles/protected_article_content', { :article => article } %>
+    <%= "<i class='fa icon-tags fa-tags'></i> #{tag_links(article)}".html_safe unless article.tags.empty? %>
+  </div>
+</article>
+

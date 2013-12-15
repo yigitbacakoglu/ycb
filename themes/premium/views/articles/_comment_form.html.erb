@@ -1,0 +1,57 @@
+<div class="title">
+  <h5><%= _("Comment") %> <em><%= @article.title %></em></h5>
+</div>
+
+<div class="form">
+  <%= form_tag @article.comment_url, :class => "form-horizontal" do %>
+
+      <div class="form-group">
+        <label for="Name" class="col-lg-2 control-label">İsim</label>
+
+        <div class="col-lg-10">
+          <%= text_field "comment", "author", :class => 'form-control', :placeholder => _("Your name") %>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="col-lg-2 control-label">E-mail</label>
+
+        <div class="col-lg-10">
+          <%= email_field "comment", "email", :class => 'form-control', :placeholder => _("Email") %>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="url" class="col-lg-2 control-label">Website</label>
+
+        <div class="col-lg-10">
+          <%= text_field "comment", "url", :class => 'form-control', :placeholder => _("Your website") %>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="body" class="col-lg-2 control-label">Body</label>
+
+        <div class="col-lg-10">
+          <%= text_area 'comment', 'body', :rows => 8, :class => 'form-control' %>
+        </div>
+      </div>
+
+      <% if this_blog.use_recaptcha %>
+          <div class="form-group">
+            <label for="body" class="col-lg-2 control-label">Captcha</label>
+            <%= raw recaptcha_tags :ajax => true %>
+          </div>
+      <% end %>
+
+
+      <div class="form-group">
+        <div class="col-lg-offset-2 col-lg-10">
+          <input type='submit' id='form-submit-button' class='btn btn-info' value="<%= _('Comment') %>"/>
+        </div>
+      </div>
+  <% end %>
+</div>
+
+
+

@@ -1,0 +1,9 @@
+<div class="side-widget">
+  <h4 class="br-black"><%= _("Tags") %></h4>
+
+  <div class="widget-content">
+    <% sidebar.tags.first(20).each do |tag| -%>
+        <%= link_to tag.display_name, tag_url(tag.name), :class => "btn btn-#{["success", "warning", "primary", "danger", "info"].sample} btn-sm", :style => "font-size:#{sidebar.sizes[tag]}%" %>
+    <% end -%>
+  </div>
+</div>

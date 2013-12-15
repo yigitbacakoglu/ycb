@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Title here -->
+  <title><%= h(page_title) %></title>
+  <!-- Description, Keywords and Author -->
+  <meta name="description" content="Your description">
+  <meta name="keywords" content="Your,Keywords">
+  <meta name="author" content="ResponsiveWebInc">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700,300italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,700' rel='stylesheet' type='text/css'>
+
+  <!-- Styles -->
+  <!-- Bootstrap CSS -->
+
+  <%= stylesheet_link_tag "/stylesheets/theme/bootstrap.min.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/animate.min.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/rs-settings.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/rs-settings-ie8.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/jquery.countdown.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/prettyPhoto.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/font-awesome.min.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/style.css", :media => 'all' %>
+  <%= stylesheet_link_tag "/stylesheets/theme/ie-style.css", :media => 'all' %>
+
+  <%= page_header %>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="#">
+</head>
+
+<body>
+
+<div class="head inner-pages">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-4">
+        <!-- Logo and Head Text -->
+        <div class="logo">
+          <!-- Logo Icon and Heading -->
+          <img src="/images/theme/logo.png" class="img-responsive" alt=""/><span>
+          <%= link_to("ycb", this_blog.base_url) %>
+          </span>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-4 pull-right">
+        <!-- Social Icon Menu -->
+        <div class="social">
+          <a target="_blank" href="http://github.com/yigitbacakoglu" class="github"><i class="fa fa-github-alt"></i></a>
+          <a target="_blank" href="http://facebook.com/bacackoglu" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="http://twitter.com/ycbacakoglu" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a target="_blank" href="https://plus.google.com/111189150882959323439" class="google-plus"><i class="fa fa-google-plus"></i></a>
+          <a target="_blank" href="http://www.linkedin.com/pub/yigitcan-bacakoglu/51/1a8/790" class="linkedin"><i class="fa fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Menu Bar End -->
+
+
+<div class="inner-page blog">
+  <div class="container">
+    <h2><strong><%= this_blog.blog_name %></strong> <%= this_blog.blog_subtitle %></h2>
+
+    <div class="inner-blog">
+      <div class="row">
+        <div class="col-md-8 col-sm-8">
+          <%= yield %>
+        </div>
+        <!-- Blog post End -->
+
+        <!-- Side Bar Start -->
+        <div class="col-md-4 col-sm-4">
+          <div class="inner-sidebar">
+            <!-- Sidebar widget -->
+
+
+            <%= render_sidebars %>
+
+          </div>
+        </div>
+        <!-- Side BAr End -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Inner Page Content End -->
+
+
+<!-- Scroll to top -->
+<span class="totop"><a href="#"><i class="fa fa-chevron-up"></i></a></span>
+<!-- Footer Start -->
+
+<div class="footer">
+  <div class="footer-inner">
+    <div class="container">
+
+
+      <div class="clearfix"></div>
+      <div class="row">
+        <div class="col-md-2 col-sm-3">
+          <div class="footer-widget">
+            <h4><i class="fa fa-unlink"></i> &nbsp; Navigation</h4>
+            <ul>
+              <li><i class="fa fa-home"></i> &nbsp;<%= link_to(_('Home'), this_blog.base_url) %></li>
+              <li><i class="fa fa-edit"></i>&nbsp;<%= link_to(_('Articles'), {:controller => 'categories'}) %></li>
+              <li><i class="fa fa-bullhorn"></i>&nbsp;<%= link_to(_('Statuses'), {:controller => 'notes'}) %></li>
+              <%- Page.published.each do |page| %>
+                  <li><i class="fa fa-asterisk"></i>&nbsp;<%= link_to_permalink(page, page.title) %></li>
+              <%- end %>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-4">
+          <div class="footer-widget">
+            <h4><i class="fa fa-user"></i> &nbsp; About Me</h4>
+            <strong>Yigit Can Bacakoglu</strong>
+
+            <p>Software Engineer</p>
+
+            <p>Graduated from T.C. Maltepe University in Istanbul,Turkey</p>
+
+            <p>Works @Cloudarena for HotelRunner and OtaMagic</p>
+
+            <div class="social">
+              <a target="_blank" href="http://github.com/yigitbacakoglu" class="github"><i class="fa fa-github-alt"></i></a>
+              <a target="_blank" href="http://facebook.com/bacackoglu" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a target="_blank" href="http://twitter.com/ycbacakoglu" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a target="_blank" href="https://plus.google.com/111189150882959323439" class="google-plus"><i class="fa fa-google-plus"></i></a>
+              <a target="_blank" href="http://www.linkedin.com/pub/yigitcan-bacakoglu/51/1a8/790" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-md-4 col-sm-5">
+          <div class="footer-widget">
+            <h4><i class="fa fa-comments"></i> &nbsp; Recent Post</h4>
+
+            <% Content.published.first(4).each do |article| %>
+                <div class="footer-rp">
+                  <a href="#"><img src="/images/theme/user-xs.jpg" class="img-responsive img-circle"/></a>
+
+                  <div class="item">
+                    <h3><%= link_to_permalink article, article.excerpt.to_s + "..." %></h3>
+                  </div>
+                </div>
+            <% end %>
+
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-5">
+          <div class="footer-widget">
+            <h4><i class="fa fa-phone"></i> &nbsp; Contact Me</h4>
+            <span>via Email</span>
+
+            <p>Istanbul, Turkey</p>
+
+            <p>
+              <span class="mute">E-mail</span> :
+              <a href="#">me [at] yigitbacakoglu.com</a>
+            </p>
+          </div>
+        </div>
+
+      </div>
+      <div class="copy">
+        <p><%= Date.today.year %>&copy; Tüm Hakları Saklıdır, Kaynak göstererek içerik kullanabilirsiniz.
+          <a href="#">Ruby On Rails ile yapılmıştur.</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer End -->
+
+<!-- Javascript files -->
+<!-- jQuery -->
+<%= javascript_include_tag "/javascripts/theme/jquery.js" %>
+<%= javascript_include_tag "/javascripts/theme/bootstrap.min.js" %>
+<%= javascript_include_tag "/javascripts/theme/jquery.themepunch.plugins.min.js" %>
+<%= javascript_include_tag "/javascripts/theme/jquery.themepunch.revolution.min.js" %>
+<%= javascript_include_tag "/javascripts/theme/waypoints.min.js" %>
+<%= javascript_include_tag "/javascripts/theme/jquery.countdown.min.js" %>
+<%= javascript_include_tag "/javascripts/theme/filter.js" %>
+<%= javascript_include_tag "/javascripts/theme/isotope.js" %>
+<%= javascript_include_tag "/javascripts/theme/jquery.prettyPhoto.js" %>
+<%= javascript_include_tag "/javascripts/theme/jquery.carouFredSel-6.2.1-packed.js" %>
+<%= javascript_include_tag "/javascripts/theme/respond.min.js" %>
+<%= javascript_include_tag "/javascripts/theme/html5shiv.js" %>
+<%= javascript_include_tag "/javascripts/theme/custom.js" %>
+
+</body>
+</html>
+<!-- Localized -->

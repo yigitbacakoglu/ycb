@@ -1,0 +1,16 @@
+<% unless sidebar.pages.blank? -%>
+    <div class="side-widget">
+      <h4 class="br-black"><%= _("Pages") %></h4>
+
+      <div class="widget-content">
+        <ol>
+          <% for page in sidebar.pages -%>
+              <li>
+                <%= link_to page.title, page.permalink_url %>
+              </li>
+          <% end %>
+        </ol>
+      </div>
+    </div>
+
+<% end %>

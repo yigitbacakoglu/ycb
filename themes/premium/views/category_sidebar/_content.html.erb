@@ -1,0 +1,18 @@
+<% unless sidebar.categories.blank? -%>
+
+    <div class="side-widget">
+      <h4 class="br-black"><%= _("Categories") %></h4>
+
+      <div class="widget-content">
+        <ol>
+          <% for category in sidebar.categories -%>
+              <% unless sidebar.empty.blank? and category.article_counter == 0 %>
+                  <% counter = sidebar.count ? "<em>(#{category.article_counter})</em>" : "" %>
+                  <li><%= link_to h("#{category.name} #{counter}".html_safe), category_url(category) %></li>
+              <% end %>
+          <% end -%>
+        </ol>
+      </div>
+    </div>
+<% end %>
+
