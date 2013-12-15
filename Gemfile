@@ -35,7 +35,7 @@ gem 'dynamic_form', '~> 1.1.4'
 gem 'iconv'
 
 group :development, :test do
-  gem 'thin'
+  #gem 'thin'
   gem 'factory_girl', '~> 4.2.0'
   gem 'webrat'
   gem 'rspec-rails', '~> 2.14'
