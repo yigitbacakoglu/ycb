@@ -1,0 +1,51 @@
+<% @page_heading = _('Advertises') %>
+<% @page_heading_class = 'icon-notes' %>
+<div>
+  <div class='span4'>
+    <%= form_tag :action => "edit", :id => @advertise.id do |f| %>
+        <input type="hidden" name="note[text_filter]" id="note_textfilter" value="<%= current_user.text_filter_name %>"/>
+        <%= text_area('advertise', 'body', {:class => 'input-block-level', :rows => '7', :placeholder => _("Body")}) %>
+        <%= text_field('advertise', 'post_type', {:class => 'input-block-level', :placeholder => _("Post Type")}) %>
+        <div class='pull-right'>
+          <%= save(_("Publish")) %>
+        </div>
+        </div>
+    <% end %>
+    </div>
+<div class='span8'>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th><%= _("Message") %></th>
+      <th><%= _("Placement") %></th>
+      <th><%= _("Date") %></th>
+    </tr>
+    </thead>
+    <tbody>
+    <%= render_void_table(@advertises.size, 3) %>
+    <% for status in @advertises %>
+        <tr>
+          <td>
+            <strong><%= h(status.body) %></strong>
+            <%= content_tag(:div, {:class => 'action', :style => ''}) do
+              [
+               small_to_edit(status),
+               small_to_delete(status)].join(" | ").html_safe
+            end
+            %>
+          </td>
+          <td>
+            <%= status.post_type %>
+            <br/>
+          </td>
+          <td>
+            <%= format_date_time status.published_at %>
+            <br/>
+          </td>
+        </tr>
+    <% end %>
+    <%= display_pagination(@advertises, 3, 'first', 'last') %>
+    </tbody>
+  </table>
+
+</div>

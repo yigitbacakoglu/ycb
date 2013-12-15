@@ -1,7 +1,10 @@
 <div class="blog-post">
+  <%= top_banner_advertise %>
+</div>
+<div class="blog-post">
   <div class="article entry" id="article-<%= @article.id %>">
     <!-- Heading of the  post -->
-    <h3 class='page-header'><%=link_to(@article.title, (request.referer.present? ? request.referer : root_path )) %></h3>
+    <h3 class='page-header'><%= link_to(@article.title, (request.referer.present? ? request.referer : root_path)) %></h3>
     <!-- Meta for this block -->
     <div class="meta">
       <%= render 'articles/meta', article: @article %>
@@ -32,7 +35,6 @@
         <%= _("Comments are disabled") %>
     <% end %>
   </div>
-
 
 
 </div>

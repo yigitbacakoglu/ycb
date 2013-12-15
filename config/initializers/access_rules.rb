@@ -72,6 +72,12 @@ AccessControl.map :require => [ :admin, :publisher, :contributor ]  do |map|
     project.submenu "New Page",   { :controller => "admin/pages", :action => "new" }
   end
 
+  map.project_module :advertises, nil do |project|
+    project.menu "Advertises",         { :controller => "admin/advertises", :action => "index" }
+    project.submenu "All Advertises",  { :controller => "admin/advertises", :action => "index" }
+    project.submenu "New Advertise",   { :controller => "admin/advertises", :action => "new" }
+  end
+
   map.project_module :media, nil do |project|
     project.menu    "Media Library",  { :controller => "admin/resources", :action => "index" }
     project.submenu    "Browse",  { :controller => "admin/resources", :action => "index" }
