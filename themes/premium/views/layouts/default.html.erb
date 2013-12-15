@@ -65,7 +65,9 @@
 
 <div class="inner-page blog">
   <div class="container">
-    <h2><strong><%= this_blog.blog_name %></strong> <%= this_blog.blog_subtitle %></h2>
+    <h2>
+      <%= '<small><a href="/"><i class="fa fa-mail-reply"></i></a>  </small>'.html_safe if request.path != root_path %>
+      <strong><%= this_blog.blog_name %></strong> <%= this_blog.blog_subtitle %></h2>
 
     <div class="inner-blog">
       <div class="row">

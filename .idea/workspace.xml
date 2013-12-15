@@ -12,7 +12,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/advertise.rb" afterPath="$PROJECT_DIR$/app/models/advertise.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/advertise_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/advertise_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb" afterPath="$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/premium/views/articles/read.html.erb" afterPath="$PROJECT_DIR$/themes/premium/views/articles/read.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -20,7 +19,7 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <file path="/Dummy.txt" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1386969473973" ignored="false" />
-    <file path="/default.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387119354009" ignored="false" />
+    <file path="/default.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387119767063" ignored="false" />
     <file path="/application.js" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1386977217150" ignored="false" />
     <file path="/fragment.rb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387117774547" ignored="false" />
     <file path="/a.dummy" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387116698668" ignored="false" />
@@ -29,7 +28,7 @@
     <file path="/_article.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387018514443" ignored="false" />
     <file path="/_comment_list.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387012618534" ignored="false" />
     <file path="/_comment.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387012677112" ignored="false" />
-    <file path="/read.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387117973181" ignored="false" />
+    <file path="/read.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387119740641" ignored="false" />
     <file path="/_comment_form.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387013710115" ignored="false" />
     <file path="/style.css" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387015292951" ignored="false" />
     <file path="/_content.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387017945165" ignored="false" />
@@ -103,7 +102,7 @@
       <file leaf-file-name="default.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="70" selection-start="3963" selection-end="3967" vertical-scroll-proportion="0.6673387">
+            <state line="68" column="11" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.8467742">
               <folding />
             </state>
           </provider>
@@ -302,6 +301,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="premium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="articles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -858,13 +883,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/premium/views/articles/read.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helpers/advertise_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="22" selection-start="364" selection-end="377" vertical-scroll-proportion="0.0">
@@ -872,9 +890,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/themes/premium/views/articles/read.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="70" selection-start="3963" selection-end="3967" vertical-scroll-proportion="0.6673387">
+        <state line="68" column="11" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.8467742">
           <folding />
         </state>
       </provider>
