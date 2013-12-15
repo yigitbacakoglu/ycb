@@ -146,8 +146,7 @@
 
             <% Content.published.first(4).each do |article| %>
                 <div class="footer-rp">
-                  <a href="#"><img src="/images/theme/user-xs.jpg" class="img-responsive img-circle"/></a>
-
+                  <%= display_user_avatar(article.user, 'thumb', "avatar img-responsive img-circle") %>
                   <div class="item">
                     <h3><%= link_to_permalink article, article.excerpt.to_s + "..." %></h3>
                   </div>

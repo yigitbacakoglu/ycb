@@ -4,7 +4,12 @@ dbfile = File.expand_path("../config/database.yml", __FILE__)
 
 
 source 'https://rubygems.org'
-gem 'pg'
+group :development, :test do
+  gem 'mysql2'
+end
+group :production do
+  gem 'pg'
+end
 gem 'rails', '~> 3.2.13'
 gem 'require_relative'
 gem 'htmlentities'
