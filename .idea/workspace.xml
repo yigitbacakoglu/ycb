@@ -20,7 +20,7 @@
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/" />
     <file path="/Dummy.txt" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1386969473973" ignored="false" />
-    <file path="/default.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387117997680" ignored="false" />
+    <file path="/default.html.erb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387119354009" ignored="false" />
     <file path="/application.js" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1386977217150" ignored="false" />
     <file path="/fragment.rb" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387117774547" ignored="false" />
     <file path="/a.dummy" changelist="b1286819-10d1-4bdd-9e7c-8553b2d7183e" time="1387116698668" ignored="false" />
@@ -103,7 +103,7 @@
       <file leaf-file-name="default.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="16" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.4576613">
+            <state line="113" column="70" selection-start="3963" selection-end="3967" vertical-scroll-proportion="0.6673387">
               <folding />
             </state>
           </provider>
@@ -851,13 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/helpers/advertise_helper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="364" selection-end="377" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/advertise.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="22" selection-start="90" selection-end="103" vertical-scroll-proportion="0.0">
@@ -872,9 +865,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/helpers/advertise_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="364" selection-end="377" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/themes/premium/views/layouts/default.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="16" selection-start="3081" selection-end="3081" vertical-scroll-proportion="0.4576613">
+        <state line="113" column="70" selection-start="3963" selection-end="3967" vertical-scroll-proportion="0.6673387">
           <folding />
         </state>
       </provider>

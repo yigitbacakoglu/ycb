@@ -109,7 +109,7 @@
       <div class="row">
         <div class="col-md-2 col-sm-3">
           <div class="footer-widget">
-            <h4><i class="fa fa-unlink"></i> &nbsp; Navigation</h4>
+            <h4><i class="fa fa-unlink"></i> &nbsp; Navigasyon</h4>
             <ul>
               <li><i class="fa fa-home"></i> &nbsp;<%= link_to(_('Home'), this_blog.base_url) %></li>
               <li><i class="fa fa-edit"></i>&nbsp;<%= link_to(_('Articles'), {:controller => 'categories'}) %></li>
@@ -123,14 +123,22 @@
 
         <div class="col-md-3 col-sm-4">
           <div class="footer-widget">
-            <h4><i class="fa fa-user"></i> &nbsp; About Me</h4>
+            <h4><i class="fa fa-user"></i> &nbsp; Hakkımda</h4>
             <strong>Yigit Can Bacakoglu</strong>
 
-            <p>Software Engineer</p>
+            <p>Yazılım Mühendisi</p>
 
-            <p>Graduated from T.C. Maltepe University in Istanbul,Turkey</p>
+            <p>T.C. Maltepe Üniversitesi</p>
 
-            <p>Works @Cloudarena for HotelRunner and OtaMagic</p>
+            <p>@Cloudarena'da HotelRunner ve OtaMagic projelerini geliştiriyor.</p>
+
+            <p>Şuanda çalıştığı kendi projeleri:</p>
+
+            <p><a target="_blank" href="http://talkycloud.com" class="github">http://talkycloud.com</a></p>
+
+            <p><a target="_blank" href="http://instakolik.com" class="github">http://instakolik.com</a></p>
+
+            <p><a target="_blank" href="http://checkintimer.com" class="github">http://checkintimer.com</a></p>
 
             <div class="social">
               <a target="_blank" href="http://github.com/yigitbacakoglu" class="github"><i class="fa fa-github-alt"></i></a>
@@ -145,7 +153,7 @@
 
         <div class="col-md-4 col-sm-5">
           <div class="footer-widget">
-            <h4><i class="fa fa-comments"></i> &nbsp; Recent Post</h4>
+            <h4><i class="fa fa-comments"></i> &nbsp; Son Yazılar</h4>
 
             <% Content.published.first(4).each do |article| %>
                 <div class="footer-rp">
@@ -161,14 +169,14 @@
 
         <div class="col-md-3 col-sm-5">
           <div class="footer-widget">
-            <h4><i class="fa fa-phone"></i> &nbsp; Contact Me</h4>
-            <span>via Email</span>
+            <h4><i class="fa fa-phone"></i> &nbsp; Bana Ulaşın</h4>
+            <span>Email</span>
 
             <p>Istanbul, Turkey</p>
 
             <p>
               <span class="mute">E-mail</span> :
-              <a href="#">me [at] yigitbacakoglu.com</a>
+              <a href="#">me [at] yigitbacakoglu [dot] com</a>
             </p>
           </div>
         </div>
@@ -176,7 +184,7 @@
       </div>
       <div class="copy">
         <p><%= Date.today.year %>&copy; Tüm Hakları Saklıdır, Kaynak göstererek içerik kullanabilirsiniz.
-          <a href="#">Ruby On Rails ile yapılmıştur.</a></p>
+          <a href="#">Ruby On Rails ile yapılmıştır.</a></p>
       </div>
     </div>
   </div>
