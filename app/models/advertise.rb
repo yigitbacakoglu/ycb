@@ -1,5 +1,6 @@
 class Advertise < Content
   scope :top_banner, where(:post_type => "top_banner")
+  scope :bottom_banner, where(:post_type => "bottom_banner")
 
   content_fields :body
 

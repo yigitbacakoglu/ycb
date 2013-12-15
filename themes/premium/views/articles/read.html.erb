@@ -1,7 +1,4 @@
 <div class="blog-post">
-  <%= top_banner_advertise %>
-</div>
-<div class="blog-post">
   <div class="article entry" id="article-<%= @article.id %>">
     <!-- Heading of the  post -->
     <h3 class='page-header'><%= link_to(@article.title, (request.referer.present? ? request.referer : root_path)) %></h3>
@@ -16,6 +13,7 @@
 
   <%#= render_social_bookmarks("link", "title") %>
 
+  <%= bottom_banner_advertise %>
 
   <% if @article.allow_comments? or @article.published_comments.size > 0 -%>
       <div class="comments">
