@@ -26,7 +26,7 @@ module PublifyPlugins
         options[:size] ||= 48
   
         url = "//www.gravatar.com/avatar.php?" << options.map { |key,value| "#{key}=#{value}" }.sort.join("&amp;")
-        "<img src=\"#{url}\" class=\"avatar gravatar\" alt=\"Gravatar\" />"
+        "<img src=\"#{url}\" class=\"avatar #{options[:class] || 'gravatar'}\" alt=\"Gravatar\" />"
       end
     end
   end

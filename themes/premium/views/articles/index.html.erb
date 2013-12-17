@@ -4,13 +4,11 @@
 
 
 <!--<div class="paging">-->
-  <!--<span class="current">1</span>-->
-  <!--<a href="#">2</a>-->
-  <!--<span class="dots">…</span>-->
-  <!--<a href="#">6</a>-->
-  <!--<a href="#">Next</a>-->
+<!--<span class="current">1</span>-->
+<!--<a href="#">2</a>-->
+<!--<span class="dots">…</span>-->
+<!--<a href="#">6</a>-->
+<!--<a href="#">Next</a>-->
 <!--</div>-->
 
-<div class='paging paginate'>
-  <%= paginate(@articles)%>
-</div>
+<%= paginate(@articles, :theme => "custom") %>

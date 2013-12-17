@@ -159,7 +159,7 @@
 
             <% Content.published.first(4).each do |article| %>
                 <div class="footer-rp">
-                  <%= display_user_avatar(article.user, 'thumb', "avatar img-responsive img-circle") %>
+                  <%= avatar_tag(email: article.user.email, class: "img-responsive img-circle") %>
                   <div class="item">
                     <h3><%= link_to_permalink article, article.excerpt.to_s + "..." %></h3>
                   </div>
@@ -213,3 +213,12 @@
 </body>
 </html>
 <!-- Localized -->
+
+
+<div class="paging">
+  <span class="current">1</span>
+  <a href="#">2</a>
+  <span class="dots">…</span>
+  <a href="#">6</a>
+  <a href="#">Next</a>
+</div>
