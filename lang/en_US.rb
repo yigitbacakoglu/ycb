@@ -1,3 +1,5 @@
+# coding: utf-8
+
 Localization.define('en_US') do |l|
   l.store "Login successful", "Login successful"
   l.store "da_DK", "Danish"

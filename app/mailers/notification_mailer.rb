@@ -6,20 +6,20 @@ class NotificationMailer < ActionMailer::Base
     @user = user
     @blog = article.blog
     @article = article
-    build_mail @blog, @user, "New article: #{article.title}"
+    build_mail @blog, @user, "Yeni Yazı: #{article.title}"
   end
 
   def comment(comment, user)
     @user = user
     @blog = comment.blog
     @comment = comment
-    build_mail @blog, @user, "New comment on #{comment.article.title}"
+    build_mail @blog, @user, "Yeni Yorum: #{comment.article.title}"
   end
 
   def notif_user(user)
     @user = user
     @blog = Blog.default
-    build_mail @blog, @user, "Welcome to Publify"
+    build_mail @blog, @user, "YigitBacakoglu.com'a Hos Geldin"
   end
 
   private
@@ -29,7 +29,7 @@ class NotificationMailer < ActionMailer::Base
   end
 
   def build_mail blog, user, subject
-    headers['X-Mailer'] = "Publify #{PUBLIFY_VERSION}"
+    headers['X-Mailer'] = "YigitBacakoglu.com #{PUBLIFY_VERSION}"
     mail(from: blog.email_from,
          to: user.email,
          subject: make_subject(blog, subject))
